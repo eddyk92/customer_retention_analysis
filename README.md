@@ -11,7 +11,8 @@ It’s built as a hybrid **SQL + Python project**: the data originates from BigQ
 
 ## Data Source
 The dataset comes from Google’s public **BigQuery dataset**:  
-`bigquery-public-data.thelook_ecommerce.orders`  
+`bigquery-public-data.thelook_ecommerce.order_items` 
+`bigquery-public-data.thelook_ecommerce.users` 
 
 Steps:
 1. Queried `thelook_ecommerce.orders` in BigQuery using SQL.  
